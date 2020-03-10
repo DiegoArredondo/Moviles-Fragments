@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#33aaff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnFrag1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Inicio"
+            android:background="#224499"
+            android:textColor="#FFF"
+            android:textStyle="bold"/>
+        <Button
+            android:id="@+id/btnFrag2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Historias"
+            android:background="#224499"
+            android:textColor="#FFF"
+            android:textStyle="bold"/>
+        <Button
+            android:id="@+id/btnFrag3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Perfil"
+            android:background="#224499"
+            android:textColor="#FFF"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/contenedorFrgamentos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#33aaff"/>
+
+</LinearLayout>
